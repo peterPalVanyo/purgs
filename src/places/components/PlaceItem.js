@@ -3,6 +3,7 @@ import "./PlaceItem.css";
 import Card from "../../shared/components/UIElement/Card";
 import Button from "../../shared/components/FormElements/Button";
 import Modal from "../../shared/components/UIElement/Modal";
+import Map from '../../shared/components/UIElement/Map'
 
 //props: href, to, size, inverse, danger, exact, type, onClick, disabled > for button
 const PlaceItem = props => {
@@ -20,7 +21,7 @@ const PlaceItem = props => {
         footer={<Button onClick={closeMapHandler} >CLOSE</Button>}
       >
         <div className='map-container'>
-          <h2>this is the map!</h2>
+          <Map {...props} />
         </div>
       </Modal>
       <li className="place-item">
