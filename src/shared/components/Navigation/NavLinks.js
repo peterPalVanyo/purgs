@@ -8,10 +8,10 @@ const NavLinks = () => {
             <NavLink exact to='/'>All USERS</NavLink>
         </li>
         <li>
-            <NavLink to='/u1/places'>MY PLACES</NavLink>
+            <NavLink to='/u1/places'>MY INFERNOS</NavLink>
         </li>
         <li>
-            <NavLink to='/places/new'>NEW PLACE</NavLink>
+            <NavLink to='/places/new'>NEW HELL</NavLink>
         </li>
         <li>
             <NavLink to='/auth'>AUTHENTICATE</NavLink>
